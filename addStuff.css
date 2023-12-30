@@ -1,0 +1,21 @@
+.addStuff{
+    margin-left: 2rem;
+    margin-top: 20px;
+    width: 58rem;
+    height: 80vh;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFF;
+    box-shadow: 20px 20px -20px;
+    border-radius: 7px;
+    
+}
+.addStuffInput{
+    max-width: 25rem;
+    margin-top: 10px;
+    
+}
+#dob{
+    margin-top: 10px;
+    width: 25rem;
+    height: 2.5em;
+}

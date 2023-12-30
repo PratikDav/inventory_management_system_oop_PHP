@@ -1,0 +1,58 @@
+body{
+    margin-left: 192px;
+    padding: 0;
+   
+}
+.offcanvas{
+    min-width: 190px;
+    max-width:200px;
+}
+.offcanvas-header{
+    padding: 0;
+}
+.offcanvas-body{
+ overflow-x: hidden;
+}
+.mainSection{
+    
+    width: calc(100% - 180px);
+    margin-left: 180px;
+}
+
+#homeContent{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.card:hover{
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+.card img{
+    width: 100px;
+    padding: 10px;
+}
+.card-text{
+    border: 1px solid #282c34;
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #415a6b;
+    color: #fff;
+}
+.dropButton{
+    border: none;
+}
+
+.btn-group{
+    margin: 5px 20px;
+}
+.dropdown{
+    float: right;
+}
+.dropdown-menu{
+   margin-right: 20px;
+ 
+}
